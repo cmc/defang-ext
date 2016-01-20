@@ -1,0 +1,17 @@
+{
+  "name": "DeFang",
+  "description": "cmc - defangs/refangs selected content",
+  "version": "0.0.1",
+  "permissions" : [
+    "clipboardWrite",
+    "clipboardRead",
+    "declarativeContent",
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
